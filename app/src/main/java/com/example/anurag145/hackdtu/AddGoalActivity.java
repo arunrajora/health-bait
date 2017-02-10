@@ -20,7 +20,7 @@ public class AddGoalActivity extends AppCompatActivity {
     private EditText editText1;
     private EditText editText2;
     private ListView listView;
-     int day,year, month;
+    int day,year, month;
     String[] array = {"Hello"};
     Integer[] array1= {R.mipmap.ic_launcher};
 
@@ -58,8 +58,8 @@ public class AddGoalActivity extends AppCompatActivity {
                 public void onDateSet(DatePicker arg0,
                                       int arg1, int arg2, int arg3) {
 
-               day=arg3;
-                month=arg2+1;
+                    day=arg3;
+                    month=arg2+1;
                     year=arg1;
                     button2.setText(new StringBuffer().append(day).append("/").append(month).append("/").append(year));
 

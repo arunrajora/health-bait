@@ -4,48 +4,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-<LinearLayout
-    android:orientation="vertical"
-    android:id="@+id/activity_add_goal"
-    android:layout_width="match_parent"
-
-    android:layout_height="match_parent"
-    tools:context="com.example.anurag145.hackdtu.AddGoalActivity">
-    <android.support.design.widget.TextInputLayout
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/activity_add_goal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimaryDark">
-        <EditText
-            android:hint="Goal Name"
-            android:textColor="@android:color/black"
-            android:textColorHint="@android:color/white"
+        tools:context="com.example.anurag145.hackdtu.AddGoalActivity">
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
-            android:padding="12dp"
-            android:maxLines="1"
-            android:layout_height="50dp" />
-    </android.support.design.widget.TextInputLayout>
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimary">
-        <EditText
-            android:hint="Goal Details"
-            android:textColor="@android:color/white"
-            android:textColorHint="@android:color/white"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark">
+            <EditText
+                android:hint="Goal Name"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/white"
+                android:layout_width="match_parent"
+                android:padding="12dp"
+                android:maxLines="1"
+                android:layout_height="50dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:background="@color/colorPrimary"
             android:layout_width="match_parent"
-            android:padding="12dp"
-            android:layout_height="50dp" />
-    </android.support.design.widget.TextInputLayout>
-
+            android:layout_height="wrap_content">
+            <EditText
+                android:hint="Goal Details"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:layout_width="match_parent"
+                android:padding="12dp"
+                android:layout_height="50dp" />
+        </android.support.design.widget.TextInputLayout>
         <Button
-            android:hint="Amount"
             android:textColor="@android:color/white"
             android:textColorHint="@android:color/white"
             android:layout_width="match_parent"
             android:padding="12dp"
             android:layout_height="50dp" />
-
-
         <Button
             android:text="Duration"
             android:id="@+id/time"
@@ -55,30 +50,26 @@
             android:padding="12dp"
             android:onClick="setDate"
             android:layout_height="50dp" />
-    <ListView
-        android:paddingTop="10dp"
-        android:id="@+id/listView"
-        android:paddingBottom="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        <ListView
+            android:paddingTop="10dp"
+            android:id="@+id/listView"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    </ListView>
-
-
+        </ListView>
         <Button
-            android:hint="Add a Contact"
             android:textColor="@android:color/white"
             android:textColorHint="@android:color/white"
             android:layout_width="match_parent"
             android:padding="12dp"
             android:layout_height="50dp" />
-    <Button
-        android:hint="Done"
-        android:textColor="@android:color/white"
-        android:textColorHint="@android:color/white"
-        android:layout_width="wrap_content"
-        android:layout_marginLeft="150dp"
-        android:layout_height="50dp" />
+        <Button
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_height="50dp" />
 
-</LinearLayout>
+    </LinearLayout>
 </ScrollView>
