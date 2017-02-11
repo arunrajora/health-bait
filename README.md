@@ -14,21 +14,21 @@
 
 - Splash screen for the app with the logo.
 
-![screenshot_20170211-162113](https://cloud.githubusercontent.com/assets/12529303/22853214/58467146-f076-11e6-80f5-3522c4e6c541.png)
+![11](https://cloud.githubusercontent.com/assets/12529303/22853315/3ce8be9c-f079-11e6-82df-41daee044317.png)
+
 
 - User profile depicting Re claimed money and lost goals.
 
-![screenshot_20170211-151317](https://cloud.githubusercontent.com/assets/12529303/22853198/b240a398-f075-11e6-9d13-84faeb38931d.png)
-
+![22](https://cloud.githubusercontent.com/assets/12529303/22853314/3ce49c86-f079-11e6-949d-a8b1b3f8711b.png)
 
 - Create a goal and add friends to vote for credibility.
 
-![screenshot_20170211-161421](https://cloud.githubusercontent.com/assets/12529303/22853199/b245209e-f075-11e6-94d6-b74d821fa927.png)
+![33](https://cloud.githubusercontent.com/assets/12529303/22853313/3cde4b42-f079-11e6-9c22-d7858982d809.png)
 
 
 - Members of group vote to decide, split money based on badge progres.
 
-![screenshot_20170211-161522](https://cloud.githubusercontent.com/assets/12529303/22853200/b24de422-f075-11e6-8cbc-7c8aa347a587.png)
+![44](https://cloud.githubusercontent.com/assets/12529303/22853316/3cfa873a-f079-11e6-898e-e1c5aa42bb50.png)
 
 
 
