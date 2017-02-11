@@ -31,5 +31,6 @@
 ![44](https://cloud.githubusercontent.com/assets/12529303/22853316/3cfa873a-f079-11e6-898e-e1c5aa42bb50.png)
 
 
+- Notification to members to keep themself motivated.
 
-
+![55](https://cloud.githubusercontent.com/assets/12529303/22853394/3cb41870-f07b-11e6-98bd-5c89f50f7ac2.png)
