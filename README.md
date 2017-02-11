@@ -11,13 +11,23 @@
 - Dashboard code at: https://github.com/deepakpathania/HealthBaitDashboard (alpha)
 
 # Screenshots
+
+- Splash screen for the app with the logo.
+
+![screenshot_20170211-162113](https://cloud.githubusercontent.com/assets/12529303/22853214/58467146-f076-11e6-80f5-3522c4e6c541.png)
+
 - User profile depicting Re claimed money and lost goals.
+
 ![screenshot_20170211-151317](https://cloud.githubusercontent.com/assets/12529303/22853198/b240a398-f075-11e6-9d13-84faeb38931d.png)
 
+
 - Create a goal and add friends to vote for credibility.
+
 ![screenshot_20170211-161421](https://cloud.githubusercontent.com/assets/12529303/22853199/b245209e-f075-11e6-94d6-b74d821fa927.png)
 
+
 - Members of group vote to decide, split money based on badge progres.
+
 ![screenshot_20170211-161522](https://cloud.githubusercontent.com/assets/12529303/22853200/b24de422-f075-11e6-8cbc-7c8aa347a587.png)
 
 
