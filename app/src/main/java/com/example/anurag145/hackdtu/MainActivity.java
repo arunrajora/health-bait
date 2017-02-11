@@ -12,8 +12,15 @@ import android.view.View;
 import com.example.anurag145.hackdtu.fragments.ActivityFragment;
 import com.example.anurag145.hackdtu.fragments.ContactFragments;
 import com.example.anurag145.hackdtu.fragments.GroupFragment;
+import com.firebase.ui.auth.AuthUI;
+import com.google.firebase.auth.FirebaseAuth;
+
+import java.util.Arrays;
 
 public class MainActivity extends AppCompatActivity {
+
+    private static final int CODECODE = 123;
+
 
     ViewPager mViewPager;
     TabLayout mTabLayout;
@@ -26,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         mViewPager = (ViewPager) findViewById(R.id.view_pager);
         mViewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager());
         mTabLayout = (TabLayout)findViewById(R.id.tabs);
-        mViewPager.setOffscreenPageLimit(3);
+        mViewPager.setOffscreenPageLimit(5);
         mViewPager.setAdapter(mViewPagerAdapter);
         mTabLayout.setupWithViewPager(mViewPager);
         mViewPagerAdapter.notifyDataSetChanged();

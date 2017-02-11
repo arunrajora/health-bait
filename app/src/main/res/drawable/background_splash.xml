@@ -3,13 +3,17 @@
 
     >
 
-
-
-    <item>
+        <item>
         <bitmap
 
             android:gravity="center"
             android:src="@mipmap/m"/>
+    </item>
+    <item>
+        <bitmap
+            
+            android:gravity="center"
+            android:src="@mipmap/n"/>
     </item>
 
 

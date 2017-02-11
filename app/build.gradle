@@ -5,7 +5,7 @@ android {
     buildToolsVersion "24.0.3"
     defaultConfig {
         applicationId "com.example.anurag145.hackdtu"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
@@ -24,9 +24,15 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.google.firebase:firebase-auth:9.6.1'
+    compile 'com.firebaseui:firebase-ui-auth:0.4.0'
+    compile 'com.google.firebase:firebase-messaging:9.6.1'
     compile 'com.google.firebase:firebase-core:9.6.1'
     compile 'com.google.firebase:firebase-database:9.6.1'
     compile 'com.google.firebase:firebase-messaging:9.6.1'
+    compile 'com.wdullaer:materialdatetimepicker:2.0.0'
     compile 'com.google.firebase:firebase-invites:9.6.1'
     compile 'com.android.support:appcompat-v7:24.2.1'
     compile 'com.android.support:design:24.2.1'
